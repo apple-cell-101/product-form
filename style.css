@@ -1,0 +1,90 @@
+body {
+    background-color: #222;
+    font-family: Arial, sans-serif;
+    padding: 30px 50px;
+}
+
+form {
+    width: 900px;
+    background-color: #ccc;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 1px solid #999;
+    margin-bottom: 8px;
+    padding: 10px 12px 12px 12px;
+}
+
+legend {
+    padding: 0 4px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.form-row > label:first-child {
+    width: 165px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 200px;
+    height: 23px;
+    padding: 2px;
+}
+
+textarea {
+    width: 660px;
+    height: 100px;
+    resize: both;
+}
+
+select {
+    width: 118px;
+    height: 35px;
+}
+
+.description-row {
+    align-items: flex-start;
+}
+
+.description-row label {
+    padding-top: 3px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: auto !important;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0;
+}
+
+.submit-container {
+    text-align: right;
+    margin-top: 85px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: 1px solid #555;
+    padding: 5px 10px;
+    font-size: 14px;
+}
